@@ -94,6 +94,10 @@ void Parser::success()
 	state = 'f';
 }
 
+
+
+
+
 void Parser::construct_tree(Node *& node, std::stack<std::string> & stack)
 {
 	Node * tata = nullptr;
